@@ -18,7 +18,7 @@ What's interesting here is that Nx seems not to detect this "shared" library as 
 - npx nx show projects
 - npx nx graph
 
-Do not include this "shared" library. This results effectively in an invisible/non-buildable library for Nx.
+Nx does not include this "shared" library. This effectively results in an invisible/non-buildable library for Nx.
 
 Am I missing something here? 
 
